@@ -1,0 +1,54 @@
+@import '../../sass/variables.scss';
+.main{
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.contents{
+    margin-top: 30px;
+}
+
+.statusPanel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.walletPanel{
+    display: flex;
+
+    justify-content: end;
+}
+
+.buttonGroup{
+    margin-top: 30px;
+    text-align: center;
+
+    button{
+        width: 120px;
+        margin-top: 10px;
+    }
+    
+}
+
+.progress{
+
+    height: 36px !important;
+    background-color: white !important;
+    border-radius: 20px !important;
+}
+
+.progressLabel{
+    position: absolute;
+    z-index: 9999;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.progressBar{
+    text-align: center;
+}
